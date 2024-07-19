@@ -75,7 +75,7 @@ class App extends Component {
 
         const langItems = [
             {
-                label: <a href="/#" onClick={() => {
+                label: <a href="#/" onClick={() => {
                     this.setLocale('zh-cn');
                 }}>
                     简体中文
@@ -83,7 +83,7 @@ class App extends Component {
                 key: 'zh-cn'
             },
             {
-                label: <a href="/#" onClick={() => {
+                label: <a href="#/" onClick={() => {
                     this.setLocale('en-us');
                 }}>
                     English
@@ -100,7 +100,7 @@ class App extends Component {
                 key: 'info'
             },
             {
-                label: <a href="/#" onClick={() => {
+                label: <a href="#/" onClick={() => {
                     this.logout();
                 }}>
                     <FormattedMessage id="logout"/>

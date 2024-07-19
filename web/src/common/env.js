@@ -15,7 +15,7 @@ function env() {
             wsPrefix = 'ws:'
         }
         return {
-            server: '',
+            server: window.location.pathname,
             wsServer: wsPrefix + window.location.host,
             prefix: window.location.protocol + '//' + window.location.host,
         }

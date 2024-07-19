@@ -33,7 +33,7 @@ class Login extends Component {
             // 跳转登录
             localStorage.setItem('X-Auth-Token', result['token']);
             // this.props.history.push();
-            window.location.href = "/"
+            window.location.href = "#/"
         } finally {
             this.setState({
                 inLogin: false
